@@ -6,7 +6,7 @@
 
 2. There is one correct (or most correct) answer per question, you **won't** be expected to choose more than answer per question.
 
-3. To pick an answer replace the `_` inside of the square brackets with a capital x IE `X`. So `[_]` becomes `[X]`.
+3. To pick an answer replace the `_` inside of the square brackets with a capital x IE `X`. So `[-]` becomes `[X]`.
 
 4. Once you've answered all the questions run the following command exactly (same case and everything, no extra spaces or flair) `git commit -am "done"`
 
@@ -23,24 +23,24 @@
 
 1. Which of the following commands will "stage" every modified file as well as every one of the untracked files too?
 
-   - [_] git add -u
-   - [_] git add .
-   - [_] git add -A
-   - [_] git commit -am "trololol"
+   - [-] git add -u
+   - [-] git add .
+   - [-] git add -A
+   - [-] git commit -am "trololol"
 
 2. Given a smattering of modified files have been staged, how would you "unstage" all of the files in the `docs/` folder?
 
-   - [_] git checkout docs/
-   - [_] git reset .
-   - [_] git reset docs/
-   - [_] find -f docs/**/*.* | git reset $0
+   - [-] git checkout docs/
+   - [-] git reset .
+   - [-] git reset docs/
+   - [-] find -f docs/**/*.* | git reset $0
 
 3. Having modified the `README.md` file of this repo, how would you undo these changes and restore the file back to the state it was committed in?
 
-   - [_] git checkout README.md
-   - [_] git reset README.md
-   - [_] git undo README.md
-   - [_] git reset README.md --hard
+   - [-] git checkout README.md
+   - [-] git reset README.md
+   - [-] git undo README.md
+   - [-] git reset README.md --hard
 
 **Part B**
 
@@ -66,24 +66,24 @@ Untracked files:
 
 1. For the above output, what command would stage only the modified .tf files, leaving the untracked .tf file alone?
 
-   - [_] git add *.tf
-   - [_] git add .
-   - [_] git add -u *.tf
-   - [_] git add .; git reset *.tf
+   - [-] git add *.tf
+   - [-] git add .
+   - [-] git add -u *.tf
+   - [-] git add .; git reset *.tf
 
 2. For the above output, if I were to run the command `git checkout .` which of the following would happen?
 
-   - [_] The 3 modified files and the 2 untracked files would have all their changes undone.
-   - [_] Nothing would happen because none of those files have been staged.
-   - [_] The 3 modified files will have all their changes undone, the untracked files will be left untouched.
-   - [_] The 3 modified files will be now be flagged as 'untracked'
+   - [-] The 3 modified files and the 2 untracked files would have all their changes undone.
+   - [-] Nothing would happen because none of those files have been staged.
+   - [-] The 3 modified files will have all their changes undone, the untracked files will be left untouched.
+   - [-] The 3 modified files will be now be flagged as 'untracked'
 
 3. For the above output, if I were to run the command `git reset .` which of the following would happen?
 
-   - [_] The 3 modified files and the 2 untracked files would have all their changes undone.
-   - [_] Nothing would happen because none of those files have been staged.
-   - [_] The 3 modified files will have all their changes undone, the untracked files will be left untouched.
-   - [_] The 3 modified files will be now be flagged as 'untracked'
+   - [-] The 3 modified files and the 2 untracked files would have all their changes undone.
+   - [-] Nothing would happen because none of those files have been staged.
+   - [-] The 3 modified files will have all their changes undone, the untracked files will be left untouched.
+   - [-] The 3 modified files will be now be flagged as 'untracked'
 
 **Part B**
 
@@ -109,14 +109,14 @@ Changes not staged for commit:
 
 1. For the above output, if I were to run the command `git checkout .` which of the following would happen?
 
-   - [_] The 3 unstaged files and the 2 staged files would have all their changes undone.
-   - [_] Nothing would happen because none of those files are untracked.
-   - [_] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
-   - [_] The 3 unstaged files will be now be flagged as 'untracked'
+   - [-] The 3 unstaged files and the 2 staged files would have all their changes undone.
+   - [-] Nothing would happen because none of those files are untracked.
+   - [-] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
+   - [-] The 3 unstaged files will be now be flagged as 'untracked'
 
 2. For the above output, if I were to run the command `git reset .` which of the following would happen?
 
-   - [_] The 3 unstaged files and the 2 staged files would have all their changes undone.
-   - [_] Nothing would happen because none of those files are untracked.
-   - [_] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
-   - [_] The 2 staged files will now show as unstaged meaning that all 5 files will be flagged as unstaged.
+   - [-] The 3 unstaged files and the 2 staged files would have all their changes undone.
+   - [-] Nothing would happen because none of those files are untracked.
+   - [-] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
+   - [-] The 2 staged files will now show as unstaged meaning that all 5 files will be flagged as unstaged.
